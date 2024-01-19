@@ -15,12 +15,13 @@
   <body>
     <div class="box">
       <header>
-        <form class="city-form">
+        <form class="city-form" id="city-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="form-search"
+            id="form-search"
           />
           <input type="submit" value="Search" class="form-button" />
         </form>
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-details">
           <div>
-            <h1 class="weather-city">Paris</h1>
+            <h1 class="weather-city" id="city">Paris</h1>
             <p class="weather-info">
               Friday 2:11, few clouds <br />
               Humidity: <strong>92%</strong>, Wind: <strong>2.57km/h</strong>
@@ -50,5 +51,6 @@
         and hosted on <a href="https://my-weather-task.netlify.app/">Netlify</a>
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
