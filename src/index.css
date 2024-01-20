@@ -66,11 +66,12 @@ strong {
 .current-weather-value {
   font-size: 90px;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 4px;
 }
 .current-weather-emoji {
-  font-size: 55px;
-  margin-top: 13px;
+  width: 90px;
+  height: 90px;
+  margin-top: 15px;
 }
 .current-weather-unit {
   margin-top: 10px;
