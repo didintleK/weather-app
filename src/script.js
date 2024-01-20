@@ -20,8 +20,6 @@ function showWeather(response) {
   cityElement.innerHTML = response.data.city;
   tempElement.innerHTML = Math.round(temp);
   timeElement.innerHTML = showDate(date);
-
-  console.log(response.data);
 }
 function showDate(date) {
   let minutes = date.getMinutes();
