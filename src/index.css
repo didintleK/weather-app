@@ -90,7 +90,7 @@ strong {
   font-size: 16px;
 }
 .temp-max {
-  font: bold;
+  font-weight: bold;
 }
 .temp-min {
   opacity: 0.5;
