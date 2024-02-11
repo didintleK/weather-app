@@ -81,10 +81,14 @@ strong {
   margin-top: 20px;
   text-align: center;
   color: #000;
+  border: 1px solid #e2ccee;
+  border-radius: 7px;
+  padding: 15px 10px;
 }
 #forecast {
   display: flex;
   justify-content: space-around;
+  border: 5px solid white;
 }
 .forecast-date {
   font-size: 18px;
