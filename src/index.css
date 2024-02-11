@@ -82,6 +82,10 @@ strong {
   text-align: center;
   color: #000;
 }
+#forecast {
+  display: flex;
+  justify-content: space-around;
+}
 .forecast-date {
   font-size: 18px;
   opacity: 0.5;
